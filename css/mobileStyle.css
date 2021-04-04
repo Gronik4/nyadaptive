@@ -1,6 +1,6 @@
   /*Версия от 04.04.2021*/
-  .popup_box {padding: 0.2rem 1rem 0;}
-    .form_x {right: 0.2rem;}
+  .popup_box {padding: 0.5rem 1rem 0;}
+    .form_x {right: 1rem;}
 .header {
     background-image: url("../image/banner-mobile.jpg");
   }
