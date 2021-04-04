@@ -1,0 +1,56 @@
+  /*Версия от 04.04.2021*/
+  .popup_box {padding: 1.5rem 1rem 0;}
+    .form_x {right: 1rem;}
+.header {
+    background-image: url("../image/banner-mobile.jpg");
+  }
+  .trends_card_item {
+    width: 100%;
+   }
+        .sandwich {
+          display: block;
+        }
+    .logo {
+      width: 16.8rem;
+      margin: 13.75rem auto 0;
+    }
+        .menu {
+          display: none;
+        }
+    .blok-header {
+      width: 20.5rem;
+      padding: 2.3rem 0 9rem;
+    }
+      .blok-header h1 {
+        font-size: 1.625rem;
+        line-height: 2.2rem;
+      }
+    .main {
+      margin: auto;
+    }
+      .card {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .card::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: #eeeeee;
+        margin: 13px auto 25px;
+      }
+        .content {
+          margin: 0.5rem 0;
+          max-width: 100vw;
+          padding: 0 0.5rem;
+        }
+.shop {
+  justify-content: center;
+}
+  .shop_item {
+    margin-bottom: 1.625rem;
+  }
+  .container {
+    flex-wrap: wrap;
+  }
