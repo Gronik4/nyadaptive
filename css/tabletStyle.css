@@ -1,0 +1,52 @@
+/*Версия от 04.04.2021*/
+.genral_popup{padding-top: 11rem;}
+.header {
+    background-image: url("../image/banner-bg-tablet.jpg");
+  }
+  .trends_card_item {
+    width: 49.7%; 
+  }
+        .sandwich {
+          display: block;
+        }
+        .menu {
+          display: none;
+        }
+      .trends_card_item:nth-child(even) {
+        margin-left: 2px;
+      }
+    .logo {
+      width: 9.9rem;
+      margin-top: 1.4rem;
+      margin-left: 1.5rem;
+    }
+    .blok-header {
+      width: 37.75rem;
+    }
+      .blok-header h1 {
+        font-size: 2.5rem;
+        line-height: 3.44rem;
+      }
+    .main {
+      width: 23.9rem;
+      margin-right: 2rem;
+    }
+      .card {
+        flex-wrap: wrap;
+      }
+      .card::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: #eeeeee;
+        margin: 13px auto 25px;
+      }
+      .content {
+        margin: 0.5rem 0;
+        max-width: 100vw;
+        padding: 0 0.5rem;
+      }
+    .shop {
+      padding-left: 2.2rem;
+    }
